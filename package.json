@@ -1,0 +1,19 @@
+{
+  "name": "dependency_1",
+  "version": "1.0.0",
+  "description": "machine one to send the request",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AYSTRONGIRP/render_spinoff_bypass_1.git"
+  },
+  "author": "AystrongRip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AYSTRONGIRP/render_spinoff_bypass_1/issues"
+  },
+  "homepage": "https://github.com/AYSTRONGIRP/render_spinoff_bypass_1#readme"
+}
