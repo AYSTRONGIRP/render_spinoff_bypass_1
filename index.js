@@ -3,14 +3,16 @@ console.log("starting from render 1");
 setInterval(() => {
     try{
         fetch(link)
-        .then((response) => {
+        .then(response => {
             if (!response.ok) {
               throw new Error(`HTTP error! Status: ${response.status}`);
             }
-        
-            console.log(response.data)
-            // console.log(response)
+            return response.text(); // Get the response as plain text
           })
+          .then(text => {
+            console.log(text); // Print "Hello World!" to the console
+          })
+        
     }
     catch(error) {
         
